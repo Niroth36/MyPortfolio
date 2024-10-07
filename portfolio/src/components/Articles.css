@@ -1,0 +1,19 @@
+.articles-page {
+    padding: 20px;
+    background-color: black;
+    color: green;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.articles-page ul {
+    list-style-type: none;
+}
+
+.articles-page ul li a {
+    color: green;
+    text-decoration: none;
+}
+
+.articles-page ul li a:hover {
+    text-decoration: underline;
+}

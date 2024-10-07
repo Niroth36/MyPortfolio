@@ -36,3 +36,17 @@
     transform: rotate(360deg);
   }
 }
+
+.app-container {
+  display: flex;
+}
+
+.content {
+  margin-left: 200px;
+  width: calc(100% - 200px);
+  background-color: black;
+  color: green;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 20px;
+  height: 100vh;
+}
