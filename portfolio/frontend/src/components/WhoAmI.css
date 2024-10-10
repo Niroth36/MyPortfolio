@@ -3,4 +3,40 @@
     background-color: black;
     color: green;
     font-family: 'Courier New', Courier, monospace;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Space between the heading and icons */
+    align-items: center;
+    text-align: center;
+}
+
+.whoami-page p {
+    width: 100%; /* Full width for the paragraph */
+    max-width: 900px; /* Limit max width for readability */
+    margin: 0 auto; /* Center the paragraph */
+    padding: 40px; /* Add more padding for stowage effect */
+    line-height: 1.8; /* Increased line spacing */
+    box-sizing: border-box; /* Include padding in the width calculation */
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.social-links a {
+    color: green;
+    font-size: 24px;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    color: lightgreen;
+}
+
+.social-icon {
+    font-size: 40px;
 }
