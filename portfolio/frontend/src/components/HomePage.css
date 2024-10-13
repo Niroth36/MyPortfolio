@@ -6,7 +6,8 @@
     height: 95vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    margin-top: 15px;
+    justify-content: top;
     align-items: center;
     text-align: center;
 }
