@@ -1,4 +1,4 @@
-#!/home/niroth36/Documents/Projects/Portfolio/portfolio/backend/venv/bin/python
+#!/Users/niroth/Documents/Projects/MyPortfolio/backend/venv/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys
