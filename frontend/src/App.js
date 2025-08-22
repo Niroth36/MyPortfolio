@@ -4,6 +4,9 @@ import HomePage from './components/HomePage';
 import WhoAmI from './components/WhoAmI';
 import Articles from './components/Articles';
 import Sidebar from './components/Sidebar';
+import LinuxArticles from './components/LinuxArticles';
+import LinuxBootProcess from './components/LinuxBootProcess';
+import LinuxVimCommands from './components/LinuxVimCommands';
 import './App.css';
 
 const App = () => {
@@ -16,6 +19,9 @@ const App = () => {
             <Route path='/' element={<HomePage />} />
             <Route path='/whoami' element={<WhoAmI />} />
             <Route path='/articles' element={<Articles />} />
+            <Route path='/linux' element={<LinuxArticles />} />
+            <Route path='/articles/linux/boot-process' element={<LinuxBootProcess />} />
+            <Route path='/articles/linux/vim-commands' element={<LinuxVimCommands />} />
           </Routes>
         </div>
       </Router>
