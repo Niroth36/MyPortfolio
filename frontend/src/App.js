@@ -8,6 +8,7 @@ import LinuxArticles from './components/LinuxArticles';
 import LinuxBootProcess from './components/LinuxBootProcess';
 import LinuxVimCommands from './components/LinuxVimCommands';
 import './App.css';
+import NetworkingArticles from './components/NetworkingArticles';
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
             <Route path='/whoami' element={<WhoAmI />} />
             <Route path='/articles' element={<Articles />} />
             <Route path='/linux' element={<LinuxArticles />} />
+            <Route path='/networking' element={<NetworkingArticles />} />
             <Route path='/articles/linux/boot-process' element={<LinuxBootProcess />} />
             <Route path='/articles/linux/vim-commands' element={<LinuxVimCommands />} />
           </Routes>
